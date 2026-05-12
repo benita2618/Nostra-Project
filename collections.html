@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Collections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <h1 class="logo">Nostra</h1>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Search and Filter -->
+
+    <section class="search-filter">
+
+        <input type="text" id="searchInput" placeholder="Search Products">
+
+        <select id="filterSelect">
+            <option value="all">All</option>
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="shoes">Shoes</option>
+        </select>
+
+    </section>
+
+    <!-- Products -->
+
+    <section class="products" id="productContainer">
+
+        <div class="product-card" data-category="men">
+            <img src="image 1.avif" alt="">
+            <h3>Men T-Shirt</h3>
+            <p>₹799</p>
+        </div>
+
+        <div class="product-card" data-category="women">
+            <img src="image 2.avif" alt="">
+            <h3>Women Dress</h3>
+            <p>₹1499</p>
+        </div>
+
+        <div class="product-card" data-category="shoes">
+            <img src="image 3.avif" alt="">
+            <h3>Running Shoes</h3>
+            <p>₹1999</p>
+        </div>
+
+        <div class="product-card" data-category="men">
+            <img src="image 4.avif" alt="">
+            <h3>Men Hoodie</h3>
+            <p>₹1299</p>
+        </div>
+
+        <div class="product-card" data-category="women">
+            <img src="image 5.webp" alt="">
+            <h3>Women Top</h3>
+            <p>₹999</p>
+        </div>
+
+        <div class="product-card" data-category="shoes">
+            <img src="image 6.avif" alt="">
+            <h3>Casual Shoes</h3>
+            <p>₹2499</p>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
